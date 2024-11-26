@@ -1,0 +1,35 @@
+/* Asegurar que los botones de acciones estén alineados */
+.table td .d-flex {
+  justify-content: center;
+  /* Centrar botones horizontalmente */
+  align-items: center;
+  /* Alinear verticalmente */
+  gap: 10px;
+  /* Espacio entre botones */
+}
+
+.formulario-empresa .form-group {
+  margin-bottom: 1.0rem;
+  /* Espaciado entre inputs */
+}
+
+.formulario-empresa label {
+  /* Para resaltar los labels */
+  margin-bottom: 0.3rem;
+  display: block;
+  /* Asegura que el label esté sobre el input */
+}
+
+.formulario-empresa .form-control {
+  border-radius: 5px;
+  /* Bordes más suaves */
+  padding: 5px;
+}
+
+button {
+  padding: 5px 10px;
+}
+
+h2 i {
+  margin-right: 8px; /* Ajusta el valor según el espacio que desees */
+}
