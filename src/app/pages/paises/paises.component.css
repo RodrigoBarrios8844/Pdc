@@ -1,0 +1,54 @@
+/* Contenedor principal */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Título */
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Formulario para agregar país */
+.d-flex input {
+  flex-grow: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.d-flex button {
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Tabla */
+.table {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.table th,
+.table td {
+  padding: 8px 12px; /* Mismos espacios que los inputs */
+}
+
+.table td input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+/* Botones dentro de la tabla */
+.btn {
+  padding: 6px 12px;
+  font-size: 14px;
+}
+
+.btn i {
+  margin-right: 5px;
+}
